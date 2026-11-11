@@ -1,7 +1,7 @@
 # Ancestor Dinner — GitHub Pages website
 
-**Live site:** https://mariiakit-official.github.io/Ancestor-Dinner/  
-**Repository:** https://github.com/mariiakit-official/Ancestor-Dinner
+**Live site:** https://mariiakit-official.github.io/ancestor-dinner/  
+**Repository:** https://github.com/mariiakit-official/ancestor-dinner
 
 A static, mobile-friendly website with an eight-slide opening presentation, a Unity Garland and Memory Box activity, and a future photo gallery. No server, framework, or paid hosting required.
 
@@ -9,7 +9,7 @@ A static, mobile-friendly website with an eight-slide opening presentation, a Un
 1. Unzip this folder. Create a new **public** GitHub repository (for example `ancestor-dinner`).
 2. Upload **all the files and the `images` folder** to the repository root (not inside an extra nested folder).
 3. In GitHub open **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, **main**, and **/(root)**, then save.
-4. The site is published at https://mariiakit-official.github.io/Ancestor-Dinner/
+4. The site is published at https://mariiakit-official.github.io/ancestor-dinner/
 
 ## During the event
 - Open the website on your laptop and select **Present**.
