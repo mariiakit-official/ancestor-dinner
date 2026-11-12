@@ -1,2 +1,7 @@
 # Review screenshots, not part of the website
 Claude outputs/
+
+# Private speaker notes: print them, don't publish them
+speaker-script.txt
+three-speaker-script.txt
+*.docx

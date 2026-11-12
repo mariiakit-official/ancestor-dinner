@@ -21,7 +21,7 @@
 - Click **Opening** / **Begin the opening presentation** when guests arrive.
 - Near the end, click **Closing activity** in the navigation bar or the keepsake section.
 - Arrow keys move between slides, Escape exits, and the fullscreen icon expands the display.
-- **Important:** Notes appear on the SAME screen as slides. Use `three-speaker-script.txt` on a phone or as a printout rather than revealing notes to guests.
+- **Important:** Notes appear on the SAME screen as slides. Use the printed speaker script rather than revealing notes to guests.
 
 ## Memory Box & Unity Garland
 - You already have a box, cards, pens, beads, and cord. Set the box and cards out before the opening.
@@ -45,4 +45,4 @@ const photos=[
 ## Website assets
 The images for the Empty Chair, wheat, family memories, Memory Box, and Unity Garland are included. To replace an image, overwrite its corresponding file in `images/` using the same filename.
 
-See **`Ancestor_Dinner_2026_Speaker_Script.docx`** (print this) or **`three-speaker-script.txt`** for the complete opening and closing narration, stage directions, and a one-page quick cue card.
+The speaker script is kept private on the organizers' computer (not published here). Print `Ancestor_Dinner_2026_Speaker_Script.docx` for the event.
