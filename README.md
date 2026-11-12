@@ -1,61 +1,48 @@
-# Ancestor Dinner — GitHub Pages website
+# Ancestor Dinner 2026 — GitHub Pages
 
 **Live site:** https://mariiakit-official.github.io/ancestor-dinner/  
 **Repository:** https://github.com/mariiakit-official/ancestor-dinner
 
-A static, mobile-friendly website with an eight-slide opening presentation, a Unity Garland and Memory Box activity, and a future photo gallery. No server, framework, or paid hosting required.
+**Many Roots. One Table. One Purpose.**  Organizers: Mariia Kit, Raymond Hall, Andre Woolfolk.
 
-## Publish
-1. Unzip this folder. Create a new **public** GitHub repository (for example `ancestor-dinner`).
-2. Upload **all the files and the `images` folder** to the repository root (not inside an extra nested folder).
-3. In GitHub open **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, **main**, and **/(root)**, then save.
-4. The site is published at https://mariiakit-official.github.io/ancestor-dinner/
+## The new two-part event structure
+- **Opening presentation:** eight slides before dinner. Mariia: slides 1–3 (candles, wheat, empty chair); Raymond: slides 4–6 (traditions, cultures, purpose); Andre: slides 7–8 (Memory Box, welcome).
+- **Throughout dinner:** guests may write a private card and place it in the wooden Memory Box. Guests share food and family stories if they wish.
+- **Closing activity:** select **Closing activity** on the website near the end. Raymond introduces the Unity Garland, everyone who wishes adds a bead, Mariia secures the cord and reflects, and Andre thanks everyone.
+- The closing presentation has **two slides**. Allow approximately 10 minutes for 20 guests to add beads, beyond the narration.
 
-## During the event
-- Open the website on your laptop and select **Present**.
-- Use left/right arrow keys or the on-screen arrows to change slides.
-- Select **Notes** to see the complete speaker's script. **Important:** notes are visible on the same screen, so close the notes before projecting, or read the separate `speaker-script.txt` on a second device.
-- Use the fullscreen button if you want the slide to fill the projector screen.
+## Publish the website
+1. Unzip this project. Create a public GitHub repository, such as `ancestor-dinner`.
+2. Upload **the contents** of the unzipped project to the repository root (`index.html`, `script.js`, `style.css`, `images/`, etc.).
+3. Go to **Settings → Pages → Build and deployment → Deploy from a branch**. Select `main`, `/(root)`, and save.
+4. Use the public GitHub Pages URL once deployment finishes. It is separate from the repository URL.
 
-## Unity Garland + Memory Box — "Roots & Connection"
-- Set out about 25 large-hole wooden beads (for ~20 people) and sturdy cord. Guests add one bead each to form a shared keepsake.
-- Choose cord that fits the holes and leave enough length to knot securely. Assemble on a table; guests can add beads during dinner.
-- The presentation now has **slide 6 for the Unity Garland** and **slide 7 for the Memory Box**, both using actual photographic visuals. **Slide 8 welcomes guests to dinner.**
-- Replace `images/unity-garland.jpg` and `images/memory-box.jpg` with your own photos after buying the supplies if you prefer. Keep the same filenames.
+## Present at the event
+- Click **Opening** / **Begin the opening presentation** when guests arrive.
+- Near the end, click **Closing activity** in the navigation bar or the keepsake section.
+- Arrow keys move between slides, Escape exits, and the fullscreen icon expands the display.
+- **Important:** Notes appear on the SAME screen as slides. Use `three-speaker-script.txt` on a phone or as a printout rather than revealing notes to guests.
 
-## Memory Box — "The Roots We Carry"
-- Set a wooden box on a small table with cards and pens (roughly 25–30 cards for about 20 guests).
-- After the opening presentation, invite guests to write one value, lesson, memory, or wish inherited from family or ancestors.
-- Guests can leave a card in the box anytime during dinner. Participation and names are optional.
-- The presentation's seventh slide introduces the box; the eighth welcomes everyone to dinner.
-- Keep the physical notes safe. **Do not publish private messages without the authors' specific permission.** The website's “Wisdom We Carry” section is a placeholder, not an upload form. To add consented quotes, manually edit `index.html` after dinner.
+## Memory Box & Unity Garland
+- You already have a box, cards, pens, beads, and cord. Set the box and cards out before the opening.
+- Keep beads and cord together until the later group activity, with enough cord length for about 20 beads and secure knots.
+- Participation and names are optional; never read or publish personal messages without the writer's permission.
+- After finishing the garland, photograph it beside the box for the event gallery.
 
-## Add photos after the dinner
-1. First ask guests for permission to publish photos on a **public** website; avoid showing guests who haven't consented, especially children.
-2. Create `images/gallery/` inside the repo. Upload optimized JPG photos, such as `group-photo.jpg`, `food-table.jpg`.
-3. Open `script.js` and change `const photos=[];` near the end to:
+## Add photographs afterward
+1. Obtain permission to publish identifiable guests' photographs on a **public website**.
+2. Create `images/gallery/` and place optimized JPG images there.
+3. Edit the `const photos=[];` array at the end of `script.js`, for example:
 
-```js
+```javascript
 const photos=[
-  {file:'group-photo.jpg',alt:'Guests gathered at Ancestor Dinner'},
-  {file:'food-table.jpg',alt:'Traditional dishes shared at dinner'}
+  {file:'garland-and-box.jpg',alt:'Finished Unity Garland beside the Memory Box'},
+  {file:'food-table.jpg',alt:'Dishes shared at Ancestor Dinner'}
 ];
 ```
+4. Commit to GitHub. The gallery will appear automatically.
 
-4. Commit. GitHub Pages will republish the gallery. Add photos whenever you like.
+## Website assets
+The images for the Empty Chair, wheat, family memories, Memory Box, and Unity Garland are included. To replace an image, overwrite its corresponding file in `images/` using the same filename.
 
-## Customization
-- Edit text in `index.html`.
-- Edit opening slides and speaker notes in the `slides` array of `script.js`.
-- Replace the existing images in `images/` with your own; keep their filenames or update paths.
-- Google Fonts are used when online; system fonts work when offline.
-- The current food mentions are **not** assignments of a dish to any individual or to a particular heritage unless explicitly established.
-
-## Organizing team
-
-Mariia Kit, Raymond Hall, and Andre Woolfolk.
-
-## November 11 image update
-- The original, clean candlelit pictures selected by the organizers are now included in `images/memory-box.jpg` and `images/unity-garland.jpg` (not screenshots of the image viewer).
-- They appear both on the website and in the presentation slides.
-- Slide 6 is titled **Connected by Our Stories**; slide 7 is **The Roots We Carry**.
+See **`Ancestor_Dinner_2026_Speaker_Script.docx`** (print this) or **`three-speaker-script.txt`** for the complete opening and closing narration, stage directions, and a one-page quick cue card.
