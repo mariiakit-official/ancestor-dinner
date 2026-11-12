@@ -1,19 +1,18 @@
 // Ancestor Dinner has two distinct presentation moments.
 // Opening: before the meal. Closing: near the end of the evening.
 const openingSlides = [
- {image:'candles',kicker:'01 · Mariia · Welcome',title:'Every story begins somewhere.',quote:'Before we became who we are, someone came before us.',notes:''},
- {image:'candle-stories',kicker:'02 · Mariia · One Candle, One Story',title:'One candle. One story.',quote:'Every life carries a light. Together, our stories shine brighter.',notes:''},
- {image:'wheat',kicker:'03 · Mariia · Our Roots',title:'Our roots shape our journeys.',quote:'Our journeys may be different, but none of us begins alone.',notes:''},
- {image:'empty-chair',kicker:'04 · Mariia · The Empty Chair',title:'Their stories still have a place at our table.',quote:'They may not sit beside us, but what they gave us lives on.',notes:''},
- {image:'recipe',kicker:'05 · Raymond · Traditions',title:'Food is a form of memory.',quote:'Sometimes a recipe carries a story that words cannot tell.',notes:''},
- {image:'heritage',kicker:'06 · Raymond · Our Cultures',title:'Different traditions. The same love.',quote:'Every dish has a person and a story behind it.',notes:''},
- {image:'community',kicker:'07 · Raymond · Shared Purpose',title:'We grow stronger together.',quote:'We do not need the same roots to grow together.',notes:''},
- {image:'memory-box',kicker:'08 · Andre · The Roots We Carry',title:'A place for the wisdom we carry.',quote:'Write a value, lesson, or memory. Leave it in the Memory Box.',notes:''},
- {image:'welcome',kicker:'09 · Andre · Welcome to Dinner',title:'Every story belongs at our table.',quote:'Many Roots. One Table. One Purpose.',notes:''}
+ {image:'candles',kicker:'01 · Welcome',title:'Every story begins somewhere.',quote:'Before we became who we are, someone came before us.',notes:''},
+ {image:'candle-stories',kicker:'02 · One Candle, One Story',title:'One candle. One story.',quote:'Every life carries a light. Together, our stories shine brighter.',notes:''},
+ {image:'wheat',kicker:'03 · Our Roots',title:'Our roots shape our journeys.',quote:'Our journeys may be different, but none of us begins alone.',notes:''},
+ {image:'empty-chair',kicker:'04 · The Empty Chair',title:'Their stories still have a place at our table.',quote:'They may not sit beside us, but what they gave us lives on.',notes:''},
+ {image:'recipe',kicker:'05 · Traditions',title:'Food is a form of memory.',quote:'Sometimes a recipe carries a story that words cannot tell.',notes:''},
+ {image:'heritage',kicker:'06 · Our Cultures',title:'Different traditions. The same love.',quote:'Every dish has a person and a story behind it.',notes:''},
+ {image:'community',kicker:'07 · Shared Purpose',title:'We grow stronger together.',quote:'We do not need the same roots to grow together.',notes:''},
+ {image:'memory-box',kicker:'08 · The Roots We Carry',title:'A place for the wisdom we carry.',quote:'Write a value, lesson, or memory. Leave it in the Memory Box.',notes:''},
+ {image:'welcome',kicker:'09 · Welcome to Dinner',title:'Every story belongs at our table.',quote:'Many Roots. One Table. One Purpose.',notes:''}
 ];
 const closingSlides = [
- {image:'unity-garland',kicker:'Closing · Raymond · Connected by Our Stories',title:'One bead. One person. One story.',quote:'Different people. Different journeys. One thread.',notes:''},
- {image:'community',kicker:'Closing · Mariia & Andre · One Purpose',title:'Together, we made something lasting.',quote:'Many Roots. One Table. One Purpose.',notes:''}
+ {image:'unity-garland',kicker:'Closing · Connected by Our Stories',title:'One bead. One person. One story.',quote:'Different people. Different journeys. One thread.',notes:''}
 ];
 let mode='opening',slideIndex=0;
 const byId=id=>document.getElementById(id);
